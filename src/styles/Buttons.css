@@ -1,0 +1,72 @@
+.buttons {
+  display: flex;
+  gap: 2rem;
+  align-content: center;
+  justify-content: center;
+  height: 3rem;
+  padding: 1rem 12rem 0 12rem;
+}
+
+.btn-red {
+  color: rgb(129, 9, 9);
+  width: 5rem;
+  border-radius: 3rem;
+  border-color: red;
+  box-shadow: 0 2px 5px 0 black;
+}
+
+.btn-green {
+  color: rgb(7, 139, 47);
+  width: 5rem;
+  border-radius: 3rem;
+  border-color: green;
+  box-shadow: 0 2px 5px 0 black;
+}
+
+.btn-blue {
+  color: rgb(0, 47, 255);
+  width: 5rem;
+  border-radius: 3rem;
+  border-color: rgb(82, 137, 255);
+  box-shadow: 0 2px 5px 0 black;
+}
+
+.btn-pink {
+  color: rgb(245, 81, 245);
+  width: 5rem;
+  border-radius: 3rem;
+  border-color: pink;
+  box-shadow: 0 2px 5px 0 black;
+}
+
+.btn-yellow {
+  color: rgb(177, 194, 29);
+  width: 5rem;
+  border-radius: 3rem;
+  border-color: yellow;
+  box-shadow: 0 2px 5px 0 black;
+}
+
+.btn-orange {
+  color: rgb(206, 142, 6);
+  width: 5rem;
+  border-radius: 3rem;
+  border-color: orange;
+  box-shadow: 0 2px 5px 0 black;
+}
+
+.return-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.btn-back {
+  color: rgb(21, 160, 170);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 3rem;
+  border-color: rgb(82, 247, 247);
+  box-shadow: 0 2px 5px 0 black;
+}

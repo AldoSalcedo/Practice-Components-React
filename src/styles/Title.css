@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: aliceblue;
+  background-color: #080225;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
