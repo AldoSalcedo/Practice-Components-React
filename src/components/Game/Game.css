@@ -1,0 +1,106 @@
+:root {
+  --background-color: cornflowerblue;
+  --board-background-color: bisque;
+  --panel-background-color: lightgoldenrodyellow;
+  --panel-border-color: burlywood;
+}
+
+.gameboard {
+  height: 30rem;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  
+
+  background-color: var(--board-background-color);
+  border: 8px solid var(--panel-border-color);
+  border-radius: 8%;
+  -webkit-box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
+  box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
+}
+
+.gamecircle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.player_0 {
+  background-color: white;
+}
+
+.player_1 {
+  background-color: red;
+}
+
+.player_2 {
+  background-color: blue;
+}
+
+.panel_header {
+  position: absolute;
+  background-color: var(--panel-background-color);
+  border: 8px solid var(--panel-border-color);
+  -webkit-box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
+  box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  left: 50%;
+  top: 7rem;
+  height: 5rem;
+  width: 15rem;
+  margin-left: -7rem;
+}
+
+.header-text {
+  height: 4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel_footer {
+  position: absolute;
+  background-color: var(--panel-background-color);
+  border: 8px solid var(--panel-border-color);
+  -webkit-box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
+  box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  left: 50%;
+  bottom: 33rem;
+  height: 6rem;
+  width: 15rem;
+  margin-left: 17rem;
+}
+
+.footer_button {
+  background-color: lightblue;
+  font-size: 2rem;
+  border: .5rem solid chocolate;
+  font-weight: bold;
+  width: 13rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: .5rem 0 0 .5rem;
+  -webkit-box-shadow: 3px 5px 10px 2px rgba(0, 0, 0, 0.9);
+  box-shadow: 3px 5px 10px 2px rgba(0, 0, 0, 0.9);
+}
+
+.footer_button:hover {
+  background-color: var(--panel-background-color);
+  cursor: pointer;
+}
+
+.footer_button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(.1rem);
+}

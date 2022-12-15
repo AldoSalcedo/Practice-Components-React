@@ -1,0 +1,29 @@
+.inputs{
+  display: flex;
+  gap: 2.5rem;
+}
+
+.list-container {
+  width: 68%;
+  background-color: aliceblue;
+  border: .5px solid white;
+  box-shadow: 0 0 1px 0;
+}
+
+label:not(:first-child) {
+  padding-left: 1rem;
+}
+
+ul {
+  margin: 1rem;
+  list-style: none;
+}
+
+.list-items {
+  margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  border-bottom: 1px solid rgb(214, 233, 250);
+}
